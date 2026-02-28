@@ -2,9 +2,9 @@
 using namespace std;
 int main(void) {
     int a,b, soma;
-    cout << "quais os numeros que voce quer somar?\n";
+    cout << "quais os numeros que voce quer multiplicar?\n";
     cin >> a >> b;
-    soma = a+b;
-    cout << "a soma dos numeros é: " << soma << "\n";
+    res = a*b;
+    cout << "o produto dos numeros é: " << res << "\n";
     return 0;
 }
